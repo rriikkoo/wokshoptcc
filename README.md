@@ -3,9 +3,7 @@
 Tugas Workshop Cloud computing disini kita akan mendeploy Aplikasi Stateless dengan Kubernetes.
 Disini saya menggunakan image htppd.
 
-image sudah tersedia di 
-``` https://hub.docker.com/r/dockondokondo/httpd
-```
+image sudah tersedia di *https://hub.docker.com/r/dockondokondo/httpd*
 
 Langkah-langkahnya :
 
