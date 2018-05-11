@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tugas-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: tugas
+    spec:
+      containers:
+      - name: httpd
+        image: dockondokondo/httpd:v2
+        ports:
+        - containerPort: 80
